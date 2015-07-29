@@ -7,7 +7,7 @@
   <packaging>jar</packaging>
   <version>1.0-SNAPSHOT</version>
   <name>clearcase2git</name>
-  <url>http://maven.apache.org</url>
+  <url>https://github.com/FranckG/clearcase2git</url>
   <dependencies>
     <dependency>
       <groupId>junit</groupId>
@@ -48,10 +48,16 @@
 		  	<artifactId>maven-compiler-plugin</artifactId>
 		  	<version>3.3</version>
 		  	<configuration>
-		  		<source>1.7</source>
-		  		<target>1.7</target>
+		  		<source>1.8</source>
+		  		<target>1.8</target>
 		  	</configuration>
 		  </plugin>
 	  </plugins>
 	</build>
+  <scm>
+  	<url>https://github.com/FranckG/clearcase2git</url>
+  </scm>
+  <ciManagement>
+  	<url>https://travis-ci.org/</url>
+  </ciManagement>
 </project>
